@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTRL-All Logistiek | Medewerker login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+<header>
+    <div class="container navbar">
+        <div class="logo">CTRL-All Logistiek</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Diensten</a></li>
+                <li><a href="about.html">Wie zijn wij</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html" class="active">Medewerker login</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="auth-wrapper">
+    <div class="auth-card">
+        <h2>Medewerker login</h2>
+        <p class="subtitle">Toegang tot het interne portaal van CTRL-All Logistiek.</p>
+
+        <form action="dashboard.html" method="get">
+            <label for="username">Gebruikersnaam</label>
+            <input type="text" id="username" name="username" placeholder="Bijv. j.devries">
+
+            <label for="password">Wachtwoord</label>
+            <input type="password" id="password" name="password" placeholder="Uw wachtwoord">
+
+            <button type="submit" class="btn" style="width: 100%; margin-top: 0.5rem;">Inloggen</button>
+        </form>
+
+        <p style="margin-top: 1rem; font-size: 0.85rem; text-align: center;">
+            Dit is een voorbeeldscherm. De login is nog niet gekoppeld aan een echte database.
+        </p>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2025 CTRL-All Logistiek. Alle rechten voorbehouden.</p>
+</footer>
+</body>
+</html>

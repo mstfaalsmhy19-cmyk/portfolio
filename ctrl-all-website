@@ -1,0 +1,16 @@
+ctrl-all-website/
+│
+├─ index.html
+├─ services.html
+├─ about.html
+├─ contact.html
+├─ login.html          (bonus)
+├─ dashboard.html      (bonus)
+│
+├─ css/
+│   └─ style.css
+│
+└─ images/
+    ├─ hero-truck.jpg          (placeholder, zelf toevoegen)
+    ├─ team-placeholder.jpg    (placeholder, zelf toevoegen)
+    └─ map-placeholder.jpg     (placeholder, zelf toevoegen)
